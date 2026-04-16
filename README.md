@@ -82,7 +82,7 @@
   pytest -v tests/api
   ```
 
-* **Только Web‑тесты**:
+* **Только UI‑тесты**:
 
   ```bash
   pytest -v tests/web
@@ -128,7 +128,7 @@ python_autotests/
 │   ├── api/
 │   │   └── test_pokemon_api.py   # тесты REST API
 │   └── web/
-│       ├── test_pokemon_web.py   # Web‑тесты на Selenium
+│       ├── test_pokemon_web.py   # UI‑тесты на Selenium
 │       └── conftest.py           # фикстуры для Selenium и сброса покемонов
 ├── report.jpg                # скриншот отчёта Allure
 ├── requirements.txt          # список зависимостей
